@@ -1,4 +1,3 @@
 package com.vrpi.edtech.response;
 
-public class PaymentLinkResponse {
-}
+public record PaymentLinkResponse(String payment_link_url, String payment_link_id) {}
